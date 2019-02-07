@@ -20,7 +20,7 @@ module Program =
                 Console.ForegroundColor <- original
                 printf "is "
                 Console.ForegroundColor <- ConsoleColor.Yellow
-                printfn "%.2f " amount
+                printfn "%.2M " amount
             finally
                 Console.ForegroundColor <- original
         try

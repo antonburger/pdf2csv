@@ -44,9 +44,9 @@ module Statement =
                     let operation =
                         match tx.amount with
                         | None -> "no change"
-                        | Some (Credit amount) -> sprintf "a credit of %.2f" amount
-                        | Some (Debit amount) -> sprintf "a debit of %.2f" amount
-                    Error <| [sprintf "Applying %s to running balance of %.2f produces %.2f instead of expected balance of %.2f" operation balance actual expected]
+                        | Some (Credit amount) -> sprintf "a credit of %.2M" amount
+                        | Some (Debit amount) -> sprintf "a debit of %.2M" amount
+                    Error <| [sprintf "Applying %s to running balance of %.2M produces %.2M instead of expected balance of %.2M" operation balance actual expected]
             | _ -> state
         
         if List.isEmpty ts then
