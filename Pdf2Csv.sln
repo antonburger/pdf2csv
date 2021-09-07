@@ -1,25 +1,34 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28010.2036
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Pdf2Csv", "Pdf2Csv\Pdf2Csv.fsproj", "{15BDB049-CA3A-48A5-893B-369180E458DD}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Pdf2Csv", "Pdf2Csv\Pdf2Csv.fsproj", "{21FF9354-4C9B-4084-BFA0-2701B44B24D6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{15BDB049-CA3A-48A5-893B-369180E458DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{15BDB049-CA3A-48A5-893B-369180E458DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{15BDB049-CA3A-48A5-893B-369180E458DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{15BDB049-CA3A-48A5-893B-369180E458DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {44B6783B-9D6D-46D1-B7DE-409B234C7445}
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{21FF9354-4C9B-4084-BFA0-2701B44B24D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21FF9354-4C9B-4084-BFA0-2701B44B24D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21FF9354-4C9B-4084-BFA0-2701B44B24D6}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{21FF9354-4C9B-4084-BFA0-2701B44B24D6}.Debug|x64.Build.0 = Debug|Any CPU
+		{21FF9354-4C9B-4084-BFA0-2701B44B24D6}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{21FF9354-4C9B-4084-BFA0-2701B44B24D6}.Debug|x86.Build.0 = Debug|Any CPU
+		{21FF9354-4C9B-4084-BFA0-2701B44B24D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21FF9354-4C9B-4084-BFA0-2701B44B24D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21FF9354-4C9B-4084-BFA0-2701B44B24D6}.Release|x64.ActiveCfg = Release|Any CPU
+		{21FF9354-4C9B-4084-BFA0-2701B44B24D6}.Release|x64.Build.0 = Release|Any CPU
+		{21FF9354-4C9B-4084-BFA0-2701B44B24D6}.Release|x86.ActiveCfg = Release|Any CPU
+		{21FF9354-4C9B-4084-BFA0-2701B44B24D6}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
