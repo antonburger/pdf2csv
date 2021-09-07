@@ -126,7 +126,7 @@ module Pdf =
             | LineSpace -> lineStartsAt cs
             | LineText (_, LineStart start) -> Some start
 
-    let (|TxDate|_|) dateText =
+    let (|TxDate|_|) (dateText : string) =
         let formats = [|
                 "d'/'M'/'yyyy"
                 "dd'/'M'/'yyyy"
